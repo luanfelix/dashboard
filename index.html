@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Dashboard -Zabbix</title>
+<title>Dashboard GZ</title>
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <style>
 
@@ -84,6 +84,7 @@ body{
 .box1 {
   float: left;
   margin: 20px 0px 0px -35px;
+  border-radius: 5px;
   border-left-width: 125px;
   border-left-style: solid;
   border-color: #BF360C;
@@ -97,6 +98,7 @@ body{
 .box2 {
   float: left;
   margin: 20px 0px 0px 43px;
+  border-radius: 5px;
   border-left-width: 125px;
   border-left-style: solid;
   border-color: #064475;
@@ -110,6 +112,7 @@ body{
 .box3 {
   float: left;
   margin: 20px 0px 0px 41px;
+  border-radius: 5px;
   border-left-width: 125px;
   border-left-style: solid;
   border-color: #B71C1C;
@@ -247,6 +250,7 @@ body{
   width: 806px;
   margin: 180px 0px 20px -15px;
   border: 3px solid white;
+  border-radius: 10px;
 }
 
 .mapconteiner img{
@@ -278,10 +282,18 @@ body{
 
 #mapimg{
   opacity: 0.8;
-    filter: alpha(opacity=50);
-    padding: 236px 0px 0px 512px;
-    height: 90px;
-    position: absolute;
+  filter: alpha(opacity=50);
+  padding: 236px 0px 0px 512px;
+  height: 90px;
+  position: absolute;
+}
+
+.maptitle{
+  border-radius: 10px 10px 0px 0px;
+  background-color: #277aa5;
+  color: whitesmoke;
+  height: 28px;
+  padding: 12px 0px 0px 12px;
 }
 
 </style>
@@ -363,7 +375,7 @@ body{
 
 <div class="mapconteiner">
 
-  <div style="background-color: #277aa5;color: whitesmoke;height: 28px;padding: 11px 0px 0px 12px;">NÚMERO DE USUÁRIOS POR ESTADO</div>
+  <div class="maptitle">NÚMERO DE USUÁRIOS POR ESTADO</div>
   <img id="mapimg" src="https://goo.gl/4cpqxG">
   <img src="https://goo.gl/tQNb1z">
 
